@@ -3,8 +3,25 @@
 h1{
     text-align: center;
     text-decoration: underline;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration-color: rgb(255, 0, 0);
 }
 
-p {
-    border-bottom: 12px red;
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+    border: 2px solid black; /* ou qualquer outra cor/estilo */
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px; /* deixa as bordas arredondadas (opcional) */
+    background-color: rgb(0, 0, 0); /* leve destaque no fundo */
+}
+
+body {
+    background-color: rgb(107, 98, 108);
+    color: white;
 }
