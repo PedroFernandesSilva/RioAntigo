@@ -2,16 +2,16 @@
 
 h1{
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: rgb(0, 0, 0);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration-color: rgb(255, 0, 0);
 }
 
-h2 {
+/* h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
 article {
     border: 2px solid black; /* ou qualquer outra cor/estilo */
@@ -24,4 +24,28 @@ article {
 body {
     background-color: rgb(107, 98, 108);
     color: white;
+}
+
+.titulo-principal {
+    font-family: "Arima";
+    color: rgb(255, 255, 255);
+    ;
+    margin: 20px 0;
+    padding: 20px 0 0 0;
+    text-align: center;
+    font-size: 36px;
+    border-bottom: 1px solid rgb(255, 0, 0);
+}
+
+.cabecalho-secao {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: .8rem;
+}
+
+.titulo-curiosidade {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:beige;
+    font-size: ;
 }
